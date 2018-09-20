@@ -35,7 +35,7 @@ body{
   display: none;
 }
 /***END PRELOADER***/
-
+/**/
 /****NAV BAR***/
 .navbar{
   background: var(--mainWhite);
