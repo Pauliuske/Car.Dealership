@@ -29,16 +29,24 @@ body{
   left: 0;
   background: var(--mainWhite);
   z-index: 999;
-  display: none!important;
+  /* display: none!important; */
 }
 .hide-preloader{
-  display: none;
+  display: none!important;
 }
 /***END PRELOADER***/
 
 /****NAV BAR***/
+.navbar-change{
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+  background: var(--mainYellow)!important;
+  z-index: 100;
+}
 .navbar{
   background: var(--mainWhite);
+  transition: all 2s ease-in-out;
 }
 .navbar-icon{
   font-size: 3rem;
